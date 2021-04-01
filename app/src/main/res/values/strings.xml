@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ebitware</string>
+
+    <string name="name_progressAV">BallPulseIndicator</string>
+
+    <string name="text_nombre">Nombre</string>
+    <string name="text_hint_nombre">Ingrese su nombre</string>
+    <string name="text_edad">Edad</string>
+    <string name="text_hint_edad">Ingrese su edad</string>
+    <string name="text_hombre">Hombre</string>
+    <string name="text_mujer">Mujer</string>
+    <string name="text_hint_peso">Ingrese su peso</string>
+    <string name="text_hint_apellido">Ingrese su apellido</string>
+    <string name="text_apellidos">Apellidos</string>
+    <string name="text_save_client">Guardar</string>
+    <string name="text_sexo">Sexo</string>
+    <string name="text_hint_sexo">Ingrese su sexo</string>
+    <string name="text_hint_email">Ingrese su email</string>
+    <string name="text_hint_password">Ingrese su contraseña</string>
+</resources>
