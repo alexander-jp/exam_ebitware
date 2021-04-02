@@ -89,6 +89,7 @@ class ClientActivity : BaseActivity() {
         }else{
             _binding.txtNameClient.setText("")
             _binding.txtLastNameClient.setText("")
+            _binding.txtPesoClient.setText("")
             _binding.txtAgeClient.setText("")
             _binding.txtPesoClient.setText("")
             _binding.txtHeightClient.setText("")
@@ -113,6 +114,7 @@ class ClientActivity : BaseActivity() {
             override fun resultEditClient(response: Boolean) {
                 showDialogProgress(false)
                 showSnackBar(_binding.root, "Se ha modificado correctamente")
+                setData(null)
             }
         }
         cPresenter.subscribe(cView!!)

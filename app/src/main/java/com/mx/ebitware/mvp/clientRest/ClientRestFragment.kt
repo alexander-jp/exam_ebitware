@@ -62,7 +62,7 @@ class ClientRestFragment : BaseFragment(R.layout.fragment_rest) {
     }
 
     private fun initSettings() {
-        initProgress(_binding.root)
+        initProgress(_binding.containerRootRest)
         _binding.rvListClient.setHasFixedSize(true)
         _binding.rvListClient.layoutManager = LinearLayoutManager(requireContext())
         _binding.nestFragClientRest.setOnScrollChangeListener { v, scrollX, scrollY, oldScrollX, oldScrollY ->
